@@ -1,0 +1,36 @@
+.card {
+  position: relative; /* Allows positioning of the heart button */
+  overflow: hidden; /* Ensures the heart button does not overflow */
+}
+
+.card-img-top {
+  width: 100%; /* Ensures the image covers the card */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.btn-save {
+  position: absolute; /* Positions the heart button */
+  top: 10px; /* Distance from the top */
+  left: 10px; /* Distance from the left */
+  background: transparent; /* Makes the button background transparent */
+  border: none; /* Removes default button border */
+  font-size: 24px; /* Increases size of the heart emoji */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  z-index: 1; /* Ensures the button is above the image */
+}
+
+.card-body {
+  padding: 16px; /* Adds padding inside the card body */
+}
+
+.card-title {
+  font-weight: bold; /* Makes the title bold */
+}
+
+.card-text {
+  margin-bottom: 8px; /* Adds space between text elements */
+}
+
+.btn-primary {
+  margin-top: 10px; /* Adds space above the button */
+}
